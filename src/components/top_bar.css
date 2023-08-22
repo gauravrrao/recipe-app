@@ -1,0 +1,86 @@
+.top_container{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.sub_container{
+    background-color: black;
+    width: 100vw;
+    height: 70px;
+}
+.sec_con{
+    display: flex;
+    margin-top: -35px;
+    width: 70vw;
+    height: 80px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec_box{
+    display: flex;
+    justify-content: center;
+}
+.sec_date{
+    display: flex;
+}
+.sec_date >p{
+    margin-left: 10px;
+}
+.sec_time >p{
+    margin-left: 10px;
+}
+.sec_time{
+    display: flex;
+}
+.menusubcon {
+    display: flex;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+}
+.dishname > p{
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.circle_dish{
+    display: flex;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+    justify-content: center;
+}
+.recom-menu{
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 50px;
+    display: flex;
+    margin-left: -190px;
+    justify-content: space-around;
+}
+.recom-menu > button{
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: -120px;
+}
+.ordermenucon{
+    width: 85vw;
+    height: 250px;
+    margin: auto;
+    overflow-y: auto;
+    margin-top: 15px; 
+}
+.ordermenucon::-webkit-scrollbar {
+    display: none;
+  }

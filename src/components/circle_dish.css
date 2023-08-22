@@ -1,0 +1,61 @@
+.dishimage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 0.9;
+    filter: brightness(0.9);
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 3px solid orangered;
+}
+
+.circle_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_wrapper {
+    position: relative;
+    text-align: center;
+}
+
+.image_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, -40%);
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+@media (max-width: 905px) {
+    .dishimage {
+        width: 80px;
+        height: 80px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .image_text {
+        transform: translate(-40%, -40%);
+    }
+}
+
+@media (max-width: 480px) {
+    .dishimage {
+        width: 60px;
+        height: 60px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    
+    .image_text {
+        transform: translate(-50%, -50%);
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,66 @@
+.ordeconfid{
+    display: flex;
+}
+.detailpara{
+    width: 500px;
+    margin-top: 50px;
+}
+.detailpagecon{
+    display: flex;
+    justify-content: center;
+}
+.ordernamediv{
+    margin-top: 80px;
+    display: flex;
+}
+.ordernamediv > p{
+    margin-top: 50px;
+}
+.orderrightdiv{
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+}
+.divtime{
+    display: flex;
+    margin-top: 50px;
+}
+.divingre{
+    margin-top: 50px;
+}
+.divingre>p{
+    margin-top: 20px;
+}
+.divvegecon{
+    margin-top: 50px;
+    display: flex;
+}
+
+.orderdivleft{
+    height: 500px;
+}
+.listing{
+    width: 850px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.divpinggg{
+    margin-top: 60px;
+}
+.spices{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.divpingnogg{
+    margin-top: 90px;
+}
+.applianc{
+    margin-top: 50px;
+}
+.appliancesdiv{
+    width: 600px;
+    height: 150px;
+    margin-top: 30px;
+}
